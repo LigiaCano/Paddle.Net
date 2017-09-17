@@ -16,5 +16,7 @@ namespace Paddle.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }
+
+        public DbSet<Court> Courts { get; set; }
     }
 }
